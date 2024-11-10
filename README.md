@@ -2,6 +2,7 @@
 # Advanced Candidate Selection Tool
 
 This repository contains an NLP-based candidate selection tool built with Streamlit, BERT, and spaCy. Designed to assist HR professionals in resume screening, the tool matches resumes to job descriptions using BERT embeddings, extracts key skills and experience, and applies bias mitigation techniques. It provides detailed match scores and supports both single and batch resume processing.
+![User interface](https://github.com/PerceptiaAI/Candidate-Fit-Prediction/blob/main/images/User%20Interface.png)
 
 ## Features
 
@@ -40,11 +41,12 @@ This repository contains an NLP-based candidate selection tool built with Stream
 2. **Upload files**:
    - **Single Resume Mode**: Upload a job description (PDF) and a single resume (PDF).
    - **Batch Mode**: Upload a job description (PDF) and a CSV file with multiple resumes (each in a column named "Resume").
+![Upload File](https://github.com/PerceptiaAI/Candidate-Fit-Prediction/blob/main/images/File%20Upload.png)
 
 3. **View Results**:
    - For single resume mode, view detailed match results, including skills and experience matches.
    - In batch mode, a table displays match scores and categories for each resume.
-
+![Result](https://github.com/PerceptiaAI/Candidate-Fit-Prediction/blob/main/images/Results.png)
 ## File Structure
 
 - `app.py`: Main Streamlit application.
